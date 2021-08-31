@@ -2,6 +2,7 @@
 
 
 This project was developed based on React and [mapbox/supercluster](https://github.com/mapbox/supercluster). If you only cares the cluster results rather than showing on map, this tool is a good option for you. The infomation of clusters and points(including corresponding cluster id) can be saved to local excel files.
+
 ![image](https://github.com/cdhcs1516/GeoSpatialClustering/blob/master/imgs/page.png)
 
 ## Work on your own data
@@ -31,3 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## Tips
+
+You may need to click the "Load Data and Initialize SuperCluster" button twice to make sure you have loaded the data.
