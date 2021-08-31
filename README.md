@@ -1,11 +1,28 @@
 # Geo-Spatial Data Clustering Tool
 
+
+This project was developed based on React and [mapbox/supercluster](https://github.com/mapbox/supercluster). If you only cares the cluster results rather than showing on map, this tool is a good option for you. The infomation of clusters and points(including corresponding cluster id) can be saved to local excel files.
 ![image](https://github.com/cdhcs1516/GeoSpatialClustering/blob/master/imgs/page.png)
-This project was 
 
-## Available Scripts
+## Work on your own data
 
-In the project directory, you can run:
+Currently, this tool only supports online data. The data format should be an array of JSON dicts. To make the tool working for your own data, you also need to slightly modify the codes in "onInitial" function in "App.js" to fit for the specific format.
+
+## Parameters for settings
+
+This is an interactive web tool so that you can set the essential parameters as you like. Currently, there are 7 parameters can be adjusted.
+- Url of data
+- Four lat-lng coordinations of the bounding box you want to focus.
+- Current zoom level for clustering
+- Searching radius for clustering
+
+Please refer to the [repository](https://github.com/mapbox/supercluster) to see the usage of the parameters.
+
+## Run this tool
+
+### `npm install`
+
+Install all packages needed for the application.
 
 ### `npm start`
 
@@ -14,58 +31,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

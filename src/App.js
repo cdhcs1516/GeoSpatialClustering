@@ -19,7 +19,7 @@ export default function App() {
   const [clusterIndex, setClusterIndex] = useState({});
   const [numCluster, setNumCluster] = useState(-1);
 
-  const onSubmit = (e) => {
+  const onInitial = (e) => {
     e.preventDefault();
 
     fetch(dataUrl)
@@ -29,6 +29,8 @@ export default function App() {
       })
       .then(function (data) {
         console.log(data.length);
+        
+        // modify codes below to fit for your data
         const pts = data.map(marker => ({
           type: "Feature",
           properties: {cluster: false, markerId: marker.id},
@@ -210,7 +212,7 @@ export default function App() {
                     disabled
                   />
                 </div>
-                <button onClick={onSubmit} className="btn btn-primary btn-block mt-4">Load Data and Initialize SuperCluster</button>
+                <button onClick={onInitial} className="btn btn-primary btn-block mt-4">Load Data and Initialize SuperCluster</button>
               </form>
 
               {/* for results and download */}
