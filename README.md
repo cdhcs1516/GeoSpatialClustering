@@ -1,6 +1,6 @@
 # Geo-Spatial Data Clustering Tool
 
-[]
+[https://github.com/cdhcs1516/GeoSpatialClustering/blob/master/imgs/page.png]
 This project was 
 
 ## Available Scripts
