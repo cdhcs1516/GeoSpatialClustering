@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/GeoSpatialClustering/static/css/main.a617e044.chunk.css",
+    "main.js": "/GeoSpatialClustering/static/js/main.27c40181.chunk.js",
+    "main.js.map": "/GeoSpatialClustering/static/js/main.27c40181.chunk.js.map",
+    "runtime-main.js": "/GeoSpatialClustering/static/js/runtime-main.273b41d1.js",
+    "runtime-main.js.map": "/GeoSpatialClustering/static/js/runtime-main.273b41d1.js.map",
+    "static/css/2.818011ed.chunk.css": "/GeoSpatialClustering/static/css/2.818011ed.chunk.css",
+    "static/js/2.5ecb75f9.chunk.js": "/GeoSpatialClustering/static/js/2.5ecb75f9.chunk.js",
+    "static/js/2.5ecb75f9.chunk.js.map": "/GeoSpatialClustering/static/js/2.5ecb75f9.chunk.js.map",
+    "static/js/3.6715df2b.chunk.js": "/GeoSpatialClustering/static/js/3.6715df2b.chunk.js",
+    "static/js/3.6715df2b.chunk.js.map": "/GeoSpatialClustering/static/js/3.6715df2b.chunk.js.map",
+    "index.html": "/GeoSpatialClustering/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/GeoSpatialClustering/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/GeoSpatialClustering/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.5ecb75f9.chunk.js.LICENSE.txt": "/GeoSpatialClustering/static/js/2.5ecb75f9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/GeoSpatialClustering/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.273b41d1.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.5ecb75f9.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.27c40181.chunk.js"
+  ]
+}
